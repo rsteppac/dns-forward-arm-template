@@ -1,0 +1,9 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "StolenWithPride",
+  "itemDisplayName": "DNS Forwarder VM",
+  "summary": "Create a DNS server that forwards queries to Azure's internal DNS servers.",
+  "description": "I stole the original template from here: https://github.com/Azure/azure-quickstart-templates/tree/master/demos/dns-forwarder. It is my attempt at setting up a forwarding DNS server to use in P2S VPNs into my VNet.",
+  "githubUsername": "rsteppac",
+  "dateUpdated": "2022-08-29"
+}

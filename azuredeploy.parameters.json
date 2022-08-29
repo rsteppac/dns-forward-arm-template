@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "spring-app-poc-dns-forwarder"
+    },
+    "adminUsername": {
+      "value": "taastrad"
+    },
+    "storageAccountName": {
+      "value": "springapppocstorage"
+    },
+    "location": {
+      "value": "switzerlandnorth"
+    },
+    "authenticationType": {
+      "value": "password"
+    },
+    "adminPasswordOrKey": {
+      "value": "Super$ecure"
+    },
+    "vnetName": {
+      "value": "spring-app-poc-vnet"
+    },
+    "vnetAddressPrefix": {
+      "value": "10.1.0.0/16"
+    },
+    "subNet1Name": {
+      "value": "spring-app-poc-vnet-dns"
+    },
+    "subNet1Prefix": {
+      "value": "10.1.3.0/24"
+    }
+  }
+}
