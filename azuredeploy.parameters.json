@@ -27,7 +27,7 @@
       "value": "10.1.0.0/16"
     },
     "subNet1Name": {
-      "value": "spring-app-poc-vnet-dns"
+      "value": "spring-app-poc-vnet-dns-subnet"
     },
     "subNet1Prefix": {
       "value": "10.1.3.0/24"
