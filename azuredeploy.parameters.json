@@ -18,7 +18,7 @@
       "value": "password"
     },
     "adminPasswordOrKey": {
-      "value": "Super$ecure"
+      "value": ""
     },
     "vnetName": {
       "value": "spring-app-poc-vnet"
