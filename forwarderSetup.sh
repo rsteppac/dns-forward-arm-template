@@ -16,6 +16,7 @@ sudo apt-get install bind9 -y
 # configure Bind9 for forwarding
 sudo cat > named.conf.options << EndOFNamedConfOptions
 acl goodclients {
+    172.16.0.0/24
     $2;
     localhost;
     localnets;
